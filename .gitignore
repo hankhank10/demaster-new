@@ -1,5 +1,6 @@
 *.pyc
 /.idea/*
 *.csv
-*.txt
+demaster-log-simple.txt
+counter.txt
 /.venv/*
