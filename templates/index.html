@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Fix your song titles</title>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="/assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="/assets/css/Highlight-Blue.css">
+    <link rel="stylesheet" href="/assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="/assets/css/Social-Icons.css">
+<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101261866);</script>
+<script async src="//static.getclicky.com/js"></script>
+</head>
+
+<body class="bg-gradient-primary">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9 col-lg-12 col-xl-10">
+                <div class="card shadow-lg o-hidden border-0 my-5">
+                    <div class="card-body p-0">
+                        <div class="row">
+                            <div class="col-lg-6 d-none d-lg-flex">
+                                <div class="flex-grow-1 bg-password-image" style="background-image: url(&quot;/assets/img/mark-s-T3mKJXfdims-unsplash.jpg&quot;);"></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h2 class="text-dark mb-2">Reclaim your song titles</h2>
+                                        <p class="mb-4">Simple web API to remove redundant information ("remastered", "live at", etc) from the end of song titles so that you can display them neatly</p>
+                                    </div>
+                                    <p>example: {{random_prompt}}</p>
+                                    <form class="user" action="/demaster" method="get">
+                                        <div class="form-group"><input class="form-control" type="text" name="long_track_name" placeholder="type a track name here" required=""></div><input class="form-control" type="hidden" name="format" value="html"><button class="btn btn-primary btn-block text-white btn-user"
+                                            type="submit">Trim that title</button></form>
+                                    <div class="text-center">
+                                        <hr><a class="small" href="api_instructions">This is also available as a web API which returns JSON</a>
+                                        <div class="text-center"><a class="small" href="https://github.com/hankhank10/demaster">Source code available on GitHub</a></div>
+                                    </div>
+                                    <div class="text-center"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="https://github.com/hankhank10/demaster"><i class="icon ion-social-github"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index">Home</a></li>
+                <li class="list-inline-item"><a href="api_instructions">API details</a></li>
+                <li class="list-inline-item"><a href="https://github.com/hankhank10/demaster">Source code</a></li>
+            </ul>
+            <p class="copyright">This site and the API are provided without warranty. Use or rely on it at your own risk.</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="/assets/js/theme.js"></script>
+</body>
+
+</html>
